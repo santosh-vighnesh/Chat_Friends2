@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chat Friends</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="stylesheet" type="text/css" href="kwitter.css">
+<script src="kwitter.js"></script>
+</head>
+<body>
+<div>
+	<img class="col-lg-6 md-4 sm-2 xs-1" src="chat-app-template-of-group.png">
+</div>
+
+<div class="col-lg-6 md-4 sm-2 xs-1">
+	<center>
+<h1 style="border-width: 10S;padding-top: 100px; width: 600px;padding-right: 100px;";>Chat Friends</h1>
+<br>
+<br>
+<br>
+<h3 style="padding-right: 220px;">Sign up</h3>
+<br>
+<br>
+<input id="user_name" class="form-control" type="text" placeholder="Username" style="width:300px">
+<br>
+<button id="Sign_up" class="btn btn-primary" onclick="add_user()" style="padding-right: 280px; width: 200px;">Sign in</button>
+</center>
+</div>
+
+</div>
+</body>
+</html>
